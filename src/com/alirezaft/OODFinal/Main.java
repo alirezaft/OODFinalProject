@@ -1,8 +1,14 @@
 package com.alirezaft.OODFinal;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Scanner scn = new Scanner(System.in);
+        CommandLineInterpreter.getInstance().setScanner(scn);
+
+        CommandLineInterpreter.getInstance().readCommand();
+
     }
 }
