@@ -1,4 +1,7 @@
-package com.alirezaft.OODFinal;
+package com.alirezaft.OODFinal.CommandStrategy;
+
+import com.alirezaft.OODFinal.Database;
+import com.alirezaft.OODFinal.User;
 
 public class AddUserStrategy extends CommandExecutionStrategy {
 
