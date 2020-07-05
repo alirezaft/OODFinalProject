@@ -47,6 +47,14 @@ public class CommandLineInterpreter {
             changeStrategy(new RemoveQuestionDecoratorStrategy(this));
         }else if(commsec[0].toLowerCase().equals("removestar")){
             changeStrategy(new RemoveStarDecoratorStrategy(this));
+        }else if(commsec[0].toLowerCase().equals("geteditingprogress")){
+            changeStrategy(new GetEditingProgressStrategy());
+        }else if(commsec[0].toLowerCase().equals("startprinting")){
+            changeStrategy(new StartPrintingStrategy());
+        }else if(commsec[0].toLowerCase().equals("startpublishing")){
+            changeStrategy(new StartPublishingStrategy());
+        }else if(commsec[0].toLowerCase().equals("getprintingprogress")){
+            changeStrategy(new GetPrintingPorgressStrategy());
         }
 
         else{

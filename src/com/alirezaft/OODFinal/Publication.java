@@ -40,4 +40,8 @@ public class Publication {
     public void changePubState(PublicationState state){
         pubstate = state;
     }
+
+    public PublicationState getState(){
+        return pubstate;
+    }
 }

@@ -11,7 +11,7 @@ public class EditingState extends PublicationState {
     @Override
     public void changeState(String state) {
         if(state.toLowerCase().equals("print")){
-            pub.changePubState(new PrintingState());
+            pub.changePubState(new PrintingState(pub));
             System.out.println("State has changed to Printing.");
         }else{
             System.out.println("wrong state");

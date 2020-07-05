@@ -1,5 +1,7 @@
 package com.alirezaft.OODFinal.PublicationStates;
 
+import com.alirezaft.OODFinal.Publication;
+
 public class PrintingState extends PublicationState {
     @Override
     public int getProgress() {
@@ -14,5 +16,9 @@ public class PrintingState extends PublicationState {
         }else{
             System.out.println("wrong state");
         }
+    }
+
+    public PrintingState(Publication p){
+        pub = p;
     }
 }

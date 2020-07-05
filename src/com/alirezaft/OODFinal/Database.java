@@ -41,4 +41,13 @@ public class Database {
     public Publication getPublication(int ID){
         return Publications.get(ID);
     }
+
+    public Publication getPublication(String name){
+        for (Publication p : Publications) {
+            if(p.getName().equals(name)){
+                return p;
+            }
+        }
+        return null;
+    }
 }
