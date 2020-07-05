@@ -1,6 +1,6 @@
 package com.alirezaft.OODFinal.CommandStrategy;
 
-import com.alirezaft.OODFinal.CommandLineDecorators.QuestionMarkDecorator;
+import com.alirezaft.OODFinal.MarkStrategy.QuestionMarkStrategy;
 import com.alirezaft.OODFinal.CommandLineInterpreter;
 
 public class RemoveQuestionDecoratorStrategy extends CommandExecutionStrategy {
@@ -8,7 +8,7 @@ public class RemoveQuestionDecoratorStrategy extends CommandExecutionStrategy {
 
     @Override
     public void executeCommand(String[] args) {
-        if(cmd.getPrintInfoDecortor() != null && cmd.getPrintInfoDecortor() instanceof QuestionMarkDecorator){
+        if(cmd.getPrintInfoDecorator() != null && cmd.getPrintInfoDecorator() instanceof QuestionMarkStrategy){
             cmd.addPrintInfoDecorator(null);
         }else{
             System.out.println("Question mark decorator not found.");

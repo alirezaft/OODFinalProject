@@ -1,6 +1,5 @@
 package com.alirezaft.OODFinal.CommandStrategy;
 
-import com.alirezaft.OODFinal.CommandLineDecorators.PrintInfoDecorator;
 import com.alirezaft.OODFinal.CommandLineInterpreter;
 import com.alirezaft.OODFinal.Database;
 import com.alirezaft.OODFinal.Publication;
@@ -11,7 +10,7 @@ public class PrintInfoStrategy extends CommandExecutionStrategy{
     @Override
     public void executeCommand(String[] args) {
         Publication curr;
-        PrintInfoDecorator dec = cmd.getPrintInfoDecortor();
+        com.alirezaft.OODFinal.MarkStrategy.PrintInfoStrategy dec = cmd.getPrintInfoDecorator();
         if(dec != null){
             dec.printMark();
         }

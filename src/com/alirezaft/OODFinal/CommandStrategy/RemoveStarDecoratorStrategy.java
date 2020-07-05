@@ -1,6 +1,6 @@
 package com.alirezaft.OODFinal.CommandStrategy;
 
-import com.alirezaft.OODFinal.CommandLineDecorators.StarDecorator;
+import com.alirezaft.OODFinal.MarkStrategy.StarStrategy;
 import com.alirezaft.OODFinal.CommandLineInterpreter;
 
 public class RemoveStarDecoratorStrategy extends CommandExecutionStrategy {
@@ -8,7 +8,7 @@ public class RemoveStarDecoratorStrategy extends CommandExecutionStrategy {
 
     @Override
     public void executeCommand(String[] args) {
-        if(cmd.getPrintInfoDecortor() != null && cmd.getPrintInfoDecortor() instanceof StarDecorator){
+        if(cmd.getPrintInfoDecorator() != null && cmd.getPrintInfoDecorator() instanceof StarStrategy){
             cmd.addPrintInfoDecorator(null);
         }else{
             System.out.println("Star decorator not found.");

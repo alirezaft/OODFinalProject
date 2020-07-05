@@ -1,6 +1,6 @@
 package com.alirezaft.OODFinal.CommandStrategy;
 
-import com.alirezaft.OODFinal.CommandLineDecorators.StarDecorator;
+import com.alirezaft.OODFinal.MarkStrategy.StarStrategy;
 import com.alirezaft.OODFinal.CommandLineInterpreter;
 
 public class AddStarDecoratorStrategy extends CommandExecutionStrategy {
@@ -8,7 +8,7 @@ public class AddStarDecoratorStrategy extends CommandExecutionStrategy {
 
     @Override
     public void executeCommand(String[] args) {
-        cmd.addPrintInfoDecorator(new StarDecorator());
+        cmd.addPrintInfoDecorator(new StarStrategy());
     }
 
     public AddStarDecoratorStrategy(CommandLineInterpreter c){

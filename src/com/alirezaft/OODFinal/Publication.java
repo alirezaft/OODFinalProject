@@ -1,7 +1,7 @@
 package com.alirezaft.OODFinal;
 
 import com.alirezaft.OODFinal.PublicationStates.PublicationState;
-import com.alirezaft.OODFinal.PublicationStates.WritingState;
+import com.alirezaft.OODFinal.PublicationStates.EditingState;
 
 import java.util.Date;
 
@@ -16,7 +16,7 @@ public class Publication {
     public Publication(String name){
         Name = name;
         DateStablished = new Date((int)(Math.random() * 20000));
-        pubstate = new WritingState();
+        pubstate = new EditingState(this);
         HashCode = (int)(Math.random() * 10000);
 
     }
@@ -39,6 +39,5 @@ public class Publication {
 
     public void changePubState(PublicationState state){
         pubstate = state;
-        pubstate.increaseProgress();
     }
 }

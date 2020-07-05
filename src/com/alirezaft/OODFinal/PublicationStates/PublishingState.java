@@ -1,6 +1,8 @@
 package com.alirezaft.OODFinal.PublicationStates;
 
-public class PrintingState extends PublicationState {
+import com.alirezaft.OODFinal.Publication;
+
+public class PublishingState extends PublicationState {
     @Override
     public int getProgress() {
         return (int)(Math.random() * 100);
@@ -8,11 +10,13 @@ public class PrintingState extends PublicationState {
 
     @Override
     public void changeState(String state) {
-        if(state.toLowerCase().equals("send")){
+        if(state.toLowerCase().equals("publish")){
             pub.changePubState(new PublishingState(pub));
-            System.out.println("State has changed to Publishing.");
-        }else{
-            System.out.println("wrong state");
         }
     }
+
+    public PublishingState(Publication p){
+        pub = p;
+    }
+
 }

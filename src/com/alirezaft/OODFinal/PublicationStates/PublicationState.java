@@ -6,6 +6,5 @@ public abstract class PublicationState {
     Publication pub;
     protected int Progress = 0;
     public abstract int getProgress();
-    public abstract void increaseProgress();
-    public abstract void setPublication(Publication p);
+    public abstract void changeState(String state);
 }

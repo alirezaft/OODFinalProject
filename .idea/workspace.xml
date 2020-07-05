@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ad5850-4c9d-4100-86ac-5f6bfa73b7f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/EditingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PublishingState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/AddUserStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/AddUserStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandExecutionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/CommandExecutionStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineDecorators/PrintInfoDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/MarkStrategy/PrintInfoStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineDecorators/QuestionMarkDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/MarkStrategy/QuestionMarkStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineDecorators/StarDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/MarkStrategy/StarStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineInterpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineInterpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/NewPublicationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/NewPublicationStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PrintInfoStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/PrintInfoStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/AddQuestionDecoratorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/AddQuestionDecoratorStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/AddStarDecoratorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/AddStarDecoratorStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/PrintInfoStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/PrintInfoStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/RemoveQuestionDecoratorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/RemoveQuestionDecoratorStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/RemoveStarDecoratorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/RemoveStarDecoratorStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/Publication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PrintingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PrintingState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PublicationState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PublicationState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/SendingState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/WritingState.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,82 +32,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/Publication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="560">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#913#914#0" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineDecorators/PrintInfoDecorator.java">
+        <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PublicationState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            <state relative-caret-position="68">
+              <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineDecorators/QuestionMarkDecorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding>
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineDecorators/StarDecorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-              <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/AddQuestionDecoratorStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineInterpreter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+            <state relative-caret-position="1190">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1930#1931#0" expanded="true" />
-                <element signature="e#1975#1976#0" expanded="true" />
-                <element signature="e#2044#2045#0" expanded="true" />
-                <element signature="e#2084#2085#0" expanded="true" />
-                <element signature="e#2152#2153#0" expanded="true" />
-                <element signature="e#2178#2179#0" expanded="true" />
-                <element signature="e#2205#2206#0" expanded="true" />
-                <element signature="e#2226#2227#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -105,12 +76,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/RemoveStarDecoratorStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="204">
               <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/EditingState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+              <folding>
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PublishingState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <folding>
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PrintingState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+              <folding>
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,12 +131,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/RemoveQuestionDecoratorStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="69" lean-forward="true" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+            <state relative-caret-position="204">
+              <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,12 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/PrintInfoStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="35" />
-              <folding>
-                <element signature="e#1088#1089#0" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -165,21 +171,25 @@
         <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/Database.java" />
         <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PrintInfoStrategy.java" />
         <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/NewPublicationStrategy.java" />
-        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PublicationState.java" />
-        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/WritingState.java" />
-        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/SendingState.java" />
-        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PrintingState.java" />
-        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/Publication.java" />
         <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineDecorators/PronInfoDecorator.java" />
-        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineDecorators/PrintInfoDecorator.java" />
         <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineDecorators/QuestionMarkDecorator.java" />
-        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineDecorators/StarDecorator.java" />
         <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/AddQuestionDecoratorStrategy.java" />
         <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/AddStarDecoratorStrategy.java" />
         <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/PrintInfoStrategy.java" />
         <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/RemoveQuestionDecoratorStrategy.java" />
         <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/RemoveStarDecoratorStrategy.java" />
         <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineInterpreter.java" />
+        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PublicationState.java" />
+        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineDecorators/StarDecorator.java" />
+        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineDecorators/PrintInfoDecorator.java" />
+        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineDecorators/PrintInfoStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/MarkStrategy/PrintInfoStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/Publication.java" />
+        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PrintingState.java" />
+        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/SendingState.java" />
+        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PublishingState.java" />
+        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/WritingState.java" />
+        <option value="$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/EditingState.java" />
       </list>
     </option>
   </component>
@@ -194,6 +204,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -218,14 +229,7 @@
               <item name="OODFinalProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="OODFinal" type="462c0819:PsiDirectoryNode" />
-              <item name="CommandLineDecorators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OODFinalProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OODFinalProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="OODFinal" type="462c0819:PsiDirectoryNode" />
-              <item name="CommandStrategy" type="462c0819:PsiDirectoryNode" />
+              <item name="MarkStrategy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OODFinalProject" type="b2602c69:ProjectViewProjectNode" />
@@ -238,13 +242,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593878154264" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593893723434" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -287,18 +290,19 @@
       <updated>1593370798204</updated>
       <workItem from="1593370802572" duration="9052000" />
       <workItem from="1593587258304" duration="16718000" />
-      <workItem from="1593868238728" duration="5301000" />
+      <workItem from="1593868238728" duration="10633000" />
+      <workItem from="1593927380516" duration="4267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31071000" />
+    <option name="totallyTimeSpent" value="40670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -307,7 +311,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39972898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -349,13 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
@@ -366,24 +363,6 @@
             <element signature="e#569#570#0" expanded="true" />
             <element signature="e#645#646#0" expanded="true" />
             <element signature="e#682#683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PublicationState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/SendingState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -409,36 +388,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PrintingState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-          <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/Publication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineDecorators/PrintInfoDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -470,88 +419,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/WritingState.java">
+    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineDecorators/StarDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/RemoveStarDecoratorStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="204">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
           <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineDecorators/QuestionMarkDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/PrintInfoStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/RemoveQuestionDecoratorStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="69" lean-forward="true" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        <state relative-caret-position="204">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/RemoveStarDecoratorStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/MarkStrategy/StarStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandStrategy/PrintInfoStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/MarkStrategy/PrintInfoStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/MarkStrategy/QuestionMarkStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/CommandLineInterpreter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        <state relative-caret-position="1190">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1930#1931#0" expanded="true" />
-            <element signature="e#1975#1976#0" expanded="true" />
-            <element signature="e#2044#2045#0" expanded="true" />
-            <element signature="e#2084#2085#0" expanded="true" />
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2178#2179#0" expanded="true" />
-            <element signature="e#2205#2206#0" expanded="true" />
-            <element signature="e#2226#2227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/Publication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PublicationState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PrintingState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/PublishingState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alirezaft/OODFinal/PublicationStates/EditingState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
           </folding>
         </state>
       </provider>

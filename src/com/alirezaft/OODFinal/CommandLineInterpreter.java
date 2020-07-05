@@ -1,6 +1,6 @@
 package com.alirezaft.OODFinal;
 
-import com.alirezaft.OODFinal.CommandLineDecorators.PrintInfoDecorator;
+import com.alirezaft.OODFinal.MarkStrategy.PrintInfoStrategy;
 import com.alirezaft.OODFinal.CommandStrategy.*;
 
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class CommandLineInterpreter {
     private static CommandLineInterpreter instance;
     private Scanner CommandReader;
     private CommandExecutionStrategy strategy;
-    private PrintInfoDecorator prtinfdec;
+    private PrintInfoStrategy prtinfdec;
 
 
     private CommandLineInterpreter(){}
@@ -36,7 +36,7 @@ public class CommandLineInterpreter {
         if(commsec[0].toLowerCase().equals("subscriber")){
             changeStrategy(new AddUserStrategy());
         }else if(commsec[0].toLowerCase().equals("printinfo")){
-            changeStrategy(new PrintInfoStrategy(this));
+            changeStrategy(new com.alirezaft.OODFinal.CommandStrategy.PrintInfoStrategy(this));
         }else if(commsec[0].toLowerCase().equals("createmodel")){
             changeStrategy(new NewPublicationStrategy());
         }else if(commsec[0].toLowerCase().equals("addq")){
@@ -73,11 +73,11 @@ public class CommandLineInterpreter {
         this.strategy = strategy;
     }
 
-    public void addPrintInfoDecorator(PrintInfoDecorator dec){
+    public void addPrintInfoDecorator(PrintInfoStrategy dec){
         prtinfdec = dec;
     }
 
-    public PrintInfoDecorator getPrintInfoDecortor(){
+    public PrintInfoStrategy getPrintInfoDecorator(){
         return prtinfdec;
     }
 }
