@@ -5,13 +5,14 @@ import com.alirezaft.OODFinal.PublicationStates.EditingState;
 
 import java.util.Date;
 
-//State Design Pattern
+//State, Mediator Design Patterns
 public class Publication {
     private String Name;
     private Date DateStablished;
     private int HashCode;
     private String Head;
     private PublicationState pubstate;
+//    private ArrayList<>
 
     public Publication(String name){
         Name = name;
@@ -44,4 +45,6 @@ public class Publication {
     public PublicationState getState(){
         return pubstate;
     }
+
+    public void subscribeUser(SubscriberInfo info){}
 }

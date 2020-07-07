@@ -55,6 +55,8 @@ public class CommandLineInterpreter {
             changeStrategy(new StartPublishingStrategy());
         }else if(commsec[0].toLowerCase().equals("getprintingprogress")){
             changeStrategy(new GetPrintingPorgressStrategy());
+        }else if(commsec[0].toLowerCase().equals("subscribe")){
+            changeStrategy(new SubscribeStrategy());
         }
 
         else{
