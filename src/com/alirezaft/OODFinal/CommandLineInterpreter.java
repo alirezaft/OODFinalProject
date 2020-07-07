@@ -33,9 +33,8 @@ public class CommandLineInterpreter {
         for (String s:commsec){
             System.out.println(s);
         }
-        if(commsec[0].toLowerCase().equals("subscriber")){
-            changeStrategy(new AddUserStrategy());
-        }else if(commsec[0].toLowerCase().equals("printinfo")){
+
+        if(commsec[0].toLowerCase().equals("printinfo")){
             changeStrategy(new com.alirezaft.OODFinal.CommandStrategy.PrintInfoStrategy(this));
         }else if(commsec[0].toLowerCase().equals("createmodel")){
             changeStrategy(new NewPublicationStrategy());
@@ -57,6 +56,8 @@ public class CommandLineInterpreter {
             changeStrategy(new GetPrintingPorgressStrategy());
         }else if(commsec[0].toLowerCase().equals("subscribe")){
             changeStrategy(new SubscribeStrategy());
+        }else if(commsec[0].toLowerCase().equals("createcharacter")){
+            changeStrategy(new CreateCharacterStrategy());
         }
 
         else{
