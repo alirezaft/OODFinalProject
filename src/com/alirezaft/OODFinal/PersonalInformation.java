@@ -22,6 +22,17 @@ public class PersonalInformation {
     public String getDateofBirth() {
         return DateofBirth;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("Name: " + Name + "\n");
+        sb.append("Gender: " + gender.toString() + "\n");
+        sb.append("Date of birth: " + DateofBirth);
+
+        return sb.toString();
+    }
 }
 
 

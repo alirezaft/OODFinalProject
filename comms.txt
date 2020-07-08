@@ -1,0 +1,10 @@
+createmodel "ad"
+createcharacter "ali" "male" "77/6/14"
+createcharacter "mina" "female" "68/9/12"
+subscribe "ad" 0
+subscribe "ad" 1
+geteditingprogress "ad"
+startprinting "ad"
+getprintingprogress "ad"
+setpublishingmethod "ad" "Online"
+startpublishing "ad"

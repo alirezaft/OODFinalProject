@@ -27,11 +27,14 @@ public class CommandLineInterpreter {
     }
 
     public void readCommand(){
-        String comm = CommandReader.nextLine();
-        String[] commsec = comm.split(" ");
+        String comm;
+        String[] commsec = null;
 
-        for (String s:commsec){
-            System.out.println(s);
+        if(CommandReader.hasNext()){
+            comm = CommandReader.nextLine();
+            commsec = comm.split(" ");
+        }else{
+            return;
         }
 
         if(commsec[0].toLowerCase().equals("printinfo")){
@@ -58,6 +61,8 @@ public class CommandLineInterpreter {
             changeStrategy(new SubscribeStrategy());
         }else if(commsec[0].toLowerCase().equals("createcharacter")){
             changeStrategy(new CreateCharacterStrategy());
+        }else if(commsec[0].toLowerCase().equals("setpublishingmethod")){
+            changeStrategy(new SetPublishingMethodStrategy());
         }
 
         else{

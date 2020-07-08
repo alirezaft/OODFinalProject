@@ -9,6 +9,10 @@ public class User {
         ID = id;
     }
 
+    public int getID() {
+        return ID;
+    }
+
     public PersonalInformation getInfo() {
         return Info;
     }

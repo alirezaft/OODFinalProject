@@ -8,15 +8,18 @@ import com.alirezaft.OODFinal.User;
 public class CreateCharacterStrategy extends CommandExecutionStrategy {
     @Override
     public void executeCommand(String[] args) {
-        String name = args[0];
+        String name = args[0].split("\"")[1];
         Gender gender = null;
-        if(args[1].equals("male")){
+        if(args[1].split("\"")[1].equals("male")){
             gender = Gender.MALE;
-        }else if(args[1].equals("female")){
+        }else if(args[1].split("\"")[1].equals("female")){
             gender = Gender.FEMALE;
         }
-        String BirthD = args[2];
+        String BirthD = args[2].split("\"")[1];
+
         PersonalInformation p = new PersonalInformation(name, gender, BirthD);
-        Database.getInstance().addUser(new User(p, Database.getInstance().getNumberOfUsers() - 1));
+        User u = new User(p, Database.getInstance().getNumberOfUsers() - 1);
+        Database.getInstance().addUser(u);
+        System.out.println("Charcter \"" + u.getID() + "\"\n" + p.toString());
     }
 }

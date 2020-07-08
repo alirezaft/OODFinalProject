@@ -12,5 +12,7 @@ public class SubscribeStrategy extends CommandExecutionStrategy {
         User u  = Database.getInstance().getUser(Integer.parseInt(uid));
         SubscriberInfoAdapter adapter = new SubscriberInfoAdapter(p);
         adapter.convertPersonalInfo(u.getInfo());
+
+
     }
 }
