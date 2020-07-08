@@ -4,9 +4,9 @@ import com.alirezaft.OODFinal.Publication;
 
 public class OnlineDeliveryStrategy extends DeliveryMethodStrategy {
     @Override
-    public void sendToSubscribers() {
-        System.out.println("Online");
-        pub.getPublisher().publish("Online");
+    public void sendToSubscribers(String message) {
+        System.out.println("Online publishing from: " + pub.getName());
+        pub.getPublisher().publish(message);
     }
 
     public OnlineDeliveryStrategy(Publication p){

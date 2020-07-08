@@ -17,7 +17,6 @@ public class PublishingState extends PublicationState {
 
     public PublishingState(Publication p){
         pub = p;
-        p.publish();
     }
 
 }

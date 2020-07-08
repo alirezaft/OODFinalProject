@@ -3,6 +3,7 @@ package com.alirezaft.OODFinal;
 import com.alirezaft.OODFinal.DeliveryMethodStrategies.DeliveryMethodStrategy;
 import com.alirezaft.OODFinal.PublicationStates.PublicationState;
 import com.alirezaft.OODFinal.PublicationStates.EditingState;
+import com.alirezaft.OODFinal.PublicationStates.PublishingState;
 
 import java.util.Date;
 
@@ -60,7 +61,11 @@ public class Publication {
         return publisher;
     }
 
-    public void publish(){
-        DeliveryMethod.sendToSubscribers();
+    public void publish(String message){
+        if(pubstate instanceof PublishingState){
+            DeliveryMethod.sendToSubscribers(message);
+        }else{
+            System.out.println("wrong state");
+        }
     }
 }

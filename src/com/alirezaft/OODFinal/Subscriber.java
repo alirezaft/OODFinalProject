@@ -12,9 +12,8 @@ public class Subscriber {
     }
 
     public void notify(String message){
-        System.out.println("I'm user " + ID + ". got my paper via.");
-        msg = message;
-        System.out.println("Also, got Message: " + msg);
+        System.out.println("I'm user " + ID + "I've got a Message: " + message);
+        System.out.println();
     }
 
     public int getID() {

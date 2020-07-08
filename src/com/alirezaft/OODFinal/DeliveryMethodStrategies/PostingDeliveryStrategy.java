@@ -4,9 +4,9 @@ import com.alirezaft.OODFinal.Publication;
 
 public class PostingDeliveryStrategy extends DeliveryMethodStrategy {
     @Override
-    public void sendToSubscribers() {
+    public void sendToSubscribers(String message) {
         pub.getPublisher().publish("Courier");
-        pub.getPublisher().publish("Courier");
+        pub.getPublisher().publish(message);
     }
 
     public PostingDeliveryStrategy(Publication p){

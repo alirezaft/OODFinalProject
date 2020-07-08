@@ -63,6 +63,8 @@ public class CommandLineInterpreter {
             changeStrategy(new CreateCharacterStrategy());
         }else if(commsec[0].toLowerCase().equals("setpublishingmethod")){
             changeStrategy(new SetPublishingMethodStrategy());
+        }else if(commsec[0].toLowerCase().equals("publish")){
+            changeStrategy(new PublishStrategy());
         }
 
         else{

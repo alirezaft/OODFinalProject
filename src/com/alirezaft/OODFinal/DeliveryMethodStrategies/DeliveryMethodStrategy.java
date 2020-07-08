@@ -4,5 +4,5 @@ import com.alirezaft.OODFinal.Publication;
 
 public abstract class DeliveryMethodStrategy {
     public Publication pub;
-    public abstract void sendToSubscribers();
+    public abstract void sendToSubscribers(String message);
 }
