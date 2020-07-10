@@ -2,7 +2,6 @@ package com.alirezaft.OODFinal.Publication;
 
 import com.alirezaft.OODFinal.DeliveryMethodStrategies.DeliveryMethodStrategy;
 import com.alirezaft.OODFinal.DeliveryMethodStrategies.PostingDeliveryStrategy;
-import com.alirezaft.OODFinal.Newspaper;
 import com.alirezaft.OODFinal.PublicationStates.PublicationState;
 import com.alirezaft.OODFinal.PublicationStates.EditingState;
 import com.alirezaft.OODFinal.PublicationStates.PublishingState;
@@ -20,7 +19,6 @@ public abstract class Publication {
     private PublicationState pubstate = new EditingState(this);
     private DeliveryMethodStrategy DeliveryMethod = new PostingDeliveryStrategy(this);
     private Publisher publisher = new Publisher();
-    private Newspaper Newpapers;
 
 //    public Publication(String name){
 //        Name = name;

@@ -14,8 +14,9 @@ public class PoliticalPublicationBuilder extends PublicationBuilder {
             pp.setHead("Mr.Politics");
             pp.setDateStablished(new Date((long) (Math.random() * 100000)));
             pp.setHashCode((int) (Math.random() * 3000));
+            return pp;
         }
-        return pp;
+        return null;
     }
 }
 

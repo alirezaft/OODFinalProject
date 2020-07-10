@@ -8,14 +8,15 @@ import java.util.Date;
 public class SportsPublicationBuilder extends PublicationBuilder {
     @Override
     public Publication build() {
-        SportsPublication ep = SportsPublication.getInstance();
-        if (ep.getHashCode() == 0) {
-            ep.setName("Sport");
-            ep.setHead("Mr.Goal");
-            ep.setDateStablished(new Date((long) (Math.random() * 100000)));
-            ep.setHashCode((int) (Math.random() * 2000));
+        SportsPublication sp = SportsPublication.getInstance();
+        if (sp.getHashCode() == 0) {
+            sp.setName("Sport");
+            sp.setHead("Mr.Goal");
+            sp.setDateStablished(new Date((long) (Math.random() * 100000)));
+            sp.setHashCode((int) (Math.random() * 2000));
+            return sp;
         }
-        return ep;
+        return null;
     }
 }
 

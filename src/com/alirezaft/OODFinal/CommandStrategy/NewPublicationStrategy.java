@@ -11,7 +11,9 @@ public class NewPublicationStrategy extends CommandExecutionStrategy {
         String name = args[0].split("\"")[1];
         PublicationBuildDirector pb = new PublicationBuildDirector();
         Publication p = pb.buildPublication(name);
-        Database.getInstance().addPublication(p);
+        if(p != null){
+            Database.getInstance().addPublication(p);
+        }
         //TODO!!!!!
     }
 }

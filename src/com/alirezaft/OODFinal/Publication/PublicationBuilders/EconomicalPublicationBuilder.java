@@ -14,7 +14,8 @@ public class EconomicalPublicationBuilder extends PublicationBuilder {
             ep.setHead("Mr.Money");
             ep.setDateStablished(new Date((long)(Math.random() * 100000)));
             ep.setHashCode((int)(Math.random() * 2000));
+            return ep;
         }
-        return ep;
+        return null;
     }
 }
