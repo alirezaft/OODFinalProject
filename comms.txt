@@ -6,6 +6,6 @@ subscribe "ad" 1
 geteditingprogress "ad"
 startprinting "ad"
 getprintingprogress "ad"
-setpublishingmethod "ad" "Online"
+setpublishingmethod "ad" "Courier"
 startpublishing "ad"
 publish "ad" "yay!"
