@@ -53,7 +53,7 @@ public class Publication {
     }
 
     public void subscribeUser(SubscriberInfo info){
-        publisher.addSubscriber(new Subscriber(info, publisher.getNumberOfSbscribers() - 1));
+        publisher.addSubscriber(new Subscriber(info, publisher.getNumberOfSbscribers() + 1));
     }
 
     public void setDeliveryMethod(DeliveryMethodStrategy d){

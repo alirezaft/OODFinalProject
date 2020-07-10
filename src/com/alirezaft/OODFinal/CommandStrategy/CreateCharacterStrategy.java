@@ -18,7 +18,7 @@ public class CreateCharacterStrategy extends CommandExecutionStrategy {
         String BirthD = args[2].split("\"")[1];
 
         PersonalInformation p = new PersonalInformation(name, gender, BirthD);
-        User u = new User(p, Database.getInstance().getNumberOfUsers() - 1);
+        User u = new User(p, Database.getInstance().getNumberOfUsers() + 1);
         Database.getInstance().addUser(u);
         System.out.println("Charcter \"" + u.getID() + "\"\n" + p.toString());
     }
