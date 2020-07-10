@@ -1,6 +1,6 @@
 package com.alirezaft.OODFinal.PublicationStates;
 
-import com.alirezaft.OODFinal.Publication;
+import com.alirezaft.OODFinal.Publication.Publication;
 
 public class PrintingState extends PublicationState {
     @Override

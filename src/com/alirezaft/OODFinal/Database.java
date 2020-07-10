@@ -1,5 +1,6 @@
 package com.alirezaft.OODFinal;
 
+import com.alirezaft.OODFinal.Publication.Publication;
 import com.alirezaft.OODFinal.UserInfo.User;
 
 import java.util.LinkedList;

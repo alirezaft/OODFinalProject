@@ -1,6 +1,7 @@
 package com.alirezaft.OODFinal.CommandStrategy;
 
 import com.alirezaft.OODFinal.*;
+import com.alirezaft.OODFinal.Publication.Publication;
 import com.alirezaft.OODFinal.UserInfo.NormalSubscriberInfoAdapter;
 import com.alirezaft.OODFinal.UserInfo.User;
 

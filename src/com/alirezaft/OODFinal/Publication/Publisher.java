@@ -1,6 +1,7 @@
-package com.alirezaft.OODFinal;
+package com.alirezaft.OODFinal.Publication;
 
 
+import com.alirezaft.OODFinal.DeliveryMethodStrategies.DeliveryMethodStrategy;
 import com.alirezaft.OODFinal.UserInfo.Subscriber;
 
 import java.util.ArrayList;

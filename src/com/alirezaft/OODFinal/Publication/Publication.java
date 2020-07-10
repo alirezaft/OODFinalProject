@@ -1,7 +1,8 @@
-package com.alirezaft.OODFinal;
+package com.alirezaft.OODFinal.Publication;
 
 import com.alirezaft.OODFinal.DeliveryMethodStrategies.DeliveryMethodStrategy;
 import com.alirezaft.OODFinal.DeliveryMethodStrategies.PostingDeliveryStrategy;
+import com.alirezaft.OODFinal.Newspaper;
 import com.alirezaft.OODFinal.PublicationStates.PublicationState;
 import com.alirezaft.OODFinal.PublicationStates.EditingState;
 import com.alirezaft.OODFinal.PublicationStates.PublishingState;
@@ -10,23 +11,24 @@ import com.alirezaft.OODFinal.UserInfo.SubscriberInfo;
 
 import java.util.Date;
 
-//State, Mediator Design Patterns
-public class Publication {
+//State, Observer, Singleton and Strategy Design Patterns
+public abstract class Publication {
     private String Name;
     private Date DateStablished;
     private int HashCode;
     private String Head;
-    private PublicationState pubstate;
+    private PublicationState pubstate = new EditingState(this);
     private DeliveryMethodStrategy DeliveryMethod = new PostingDeliveryStrategy(this);
     private Publisher publisher = new Publisher();
+    private Newspaper Newpapers;
 
-    public Publication(String name){
-        Name = name;
-        DateStablished = new Date((int)(Math.random() * 20000));
-        pubstate = new EditingState(this);
-        HashCode = (int)(Math.random() * 10000);
-
-    }
+//    public Publication(String name){
+//        Name = name;
+//        DateStablished = new Date((int)(Math.random() * 20000));
+//        pubstate = new EditingState(this);
+//        HashCode = (int)(Math.random() * 10000);
+//
+//    }
 
     public String getName() {
         return Name;
@@ -70,5 +72,21 @@ public class Publication {
         }else{
             System.out.println("wrong state");
         }
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public void setDateStablished(Date dateStablished) {
+        DateStablished = dateStablished;
+    }
+
+    public void setHashCode(int hashCode) {
+        HashCode = hashCode;
+    }
+
+    public void setHead(String head) {
+        Head = head;
     }
 }

@@ -1,6 +1,6 @@
 package com.alirezaft.OODFinal.MarkStrategy;
 
-public class StarStrategy extends PrintInfoStrategy {
+public class StarMarkStrategy extends PrintInfoMarkStrategy {
 
     @Override
     public void printMark() {

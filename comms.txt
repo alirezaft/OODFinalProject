@@ -1,11 +1,11 @@
-createmodel "ad"
+createmodel "Economical"
 createcharacter "ali" "male" "77/6/14"
 createcharacter "mina" "female" "68/9/12"
-subscribe "ad" 0
-subscribe "ad" 1
-geteditingprogress "ad"
-startprinting "ad"
-getprintingprogress "ad"
-setpublishingmethod "ad" "Courier"
-startpublishing "ad"
-publish "ad" "yay!"
+subscribe "Economical" 0
+subscribe "Economical" 1
+geteditingprogress "Economical"
+startprinting "Economical"
+getprintingprogress "Economical"
+setpublishingmethod "Economical" "Online"
+startpublishing "Economical"
+publish "Economical" "yay!"

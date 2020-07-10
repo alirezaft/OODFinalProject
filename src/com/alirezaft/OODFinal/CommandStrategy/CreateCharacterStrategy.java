@@ -6,6 +6,7 @@ import com.alirezaft.OODFinal.UserInfo.PersonalInformation;
 import com.alirezaft.OODFinal.UserInfo.User;
 
 public class CreateCharacterStrategy extends CommandExecutionStrategy {
+    //Parameters: "name" "male/female" "YY/MM/DD"
     @Override
     public void executeCommand(String[] args) {
         String name = args[0].split("\"")[1];

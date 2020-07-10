@@ -2,7 +2,8 @@ package com.alirezaft.OODFinal.CommandStrategy;
 
 import com.alirezaft.OODFinal.CommandLineInterpreter;
 import com.alirezaft.OODFinal.Database;
-import com.alirezaft.OODFinal.Publication;
+import com.alirezaft.OODFinal.MarkStrategy.PrintInfoMarkStrategy;
+import com.alirezaft.OODFinal.Publication.Publication;
 
 public class PrintInfoStrategy extends CommandExecutionStrategy{
     private CommandLineInterpreter cmd;
@@ -10,9 +11,9 @@ public class PrintInfoStrategy extends CommandExecutionStrategy{
     @Override
     public void executeCommand(String[] args) {
         Publication curr;
-        com.alirezaft.OODFinal.MarkStrategy.PrintInfoStrategy dec = cmd.getPrintInfoDecorator();
-        if(dec != null){
-            dec.printMark();
+        PrintInfoMarkStrategy pim = cmd.getPrintInfoMarkStrategy();
+        if(pim != null){
+            pim.printMark();
         }
 
         for(int i = 0; i < Database.getInstance().getNumberOfPublications(); i++){

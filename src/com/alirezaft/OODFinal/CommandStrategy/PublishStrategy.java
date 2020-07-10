@@ -1,7 +1,7 @@
 package com.alirezaft.OODFinal.CommandStrategy;
 
 import com.alirezaft.OODFinal.Database;
-import com.alirezaft.OODFinal.Publication;
+import com.alirezaft.OODFinal.Publication.Publication;
 
 public class PublishStrategy extends CommandExecutionStrategy {
     @Override

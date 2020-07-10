@@ -3,7 +3,7 @@ package com.alirezaft.OODFinal.CommandStrategy;
 import com.alirezaft.OODFinal.Database;
 import com.alirezaft.OODFinal.DeliveryMethodStrategies.OnlineDeliveryStrategy;
 import com.alirezaft.OODFinal.DeliveryMethodStrategies.PostingDeliveryStrategy;
-import com.alirezaft.OODFinal.Publication;
+import com.alirezaft.OODFinal.Publication.Publication;
 
 public class SetPublishingMethodStrategy extends CommandExecutionStrategy {
     @Override

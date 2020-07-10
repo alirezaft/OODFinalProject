@@ -13,11 +13,14 @@ public class Subscriber {
 
     public void notify(String message){
         System.out.println("I'm user " + ID + ". I've got a Message: " + message);
+        msg = message;
     }
 
     public int getID() {
         return ID;
     }
 
-
+    public String getMessage(){
+        return msg;
+    }
 }

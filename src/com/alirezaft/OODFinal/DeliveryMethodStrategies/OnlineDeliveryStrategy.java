@@ -1,6 +1,6 @@
 package com.alirezaft.OODFinal.DeliveryMethodStrategies;
 
-import com.alirezaft.OODFinal.Publication;
+import com.alirezaft.OODFinal.Publication.Publication;
 
 public class OnlineDeliveryStrategy extends DeliveryMethodStrategy {
     @Override
