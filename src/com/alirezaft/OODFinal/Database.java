@@ -1,7 +1,8 @@
 package com.alirezaft.OODFinal;
 
+import com.alirezaft.OODFinal.UserInfo.User;
+
 import java.util.LinkedList;
-import java.util.List;
 
 //Singleton design patternx
 public class Database {

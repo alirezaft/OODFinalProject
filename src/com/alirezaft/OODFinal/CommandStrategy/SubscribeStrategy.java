@@ -1,6 +1,8 @@
 package com.alirezaft.OODFinal.CommandStrategy;
 
 import com.alirezaft.OODFinal.*;
+import com.alirezaft.OODFinal.UserInfo.NormalSubscriberInfoAdapter;
+import com.alirezaft.OODFinal.UserInfo.User;
 
 public class SubscribeStrategy extends CommandExecutionStrategy {
     @Override
@@ -10,8 +12,8 @@ public class SubscribeStrategy extends CommandExecutionStrategy {
 
         Publication p = Database.getInstance().getPublication(pub);
         User u  = Database.getInstance().getUser(Integer.parseInt(uid));
-        SubscriberInfoAdapter adapter = new SubscriberInfoAdapter(p);
-        adapter.convertPersonalInfo(u.getInfo());
+        NormalSubscriberInfoAdapter adapter = new NormalSubscriberInfoAdapter(p);
+        adapter.convertAndRegisterPersonalInfo(u.getInfo());
 
 
     }

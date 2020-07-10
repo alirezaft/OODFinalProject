@@ -1,9 +1,9 @@
 package com.alirezaft.OODFinal.CommandStrategy;
 
 import com.alirezaft.OODFinal.Database;
-import com.alirezaft.OODFinal.Gender;
-import com.alirezaft.OODFinal.PersonalInformation;
-import com.alirezaft.OODFinal.User;
+import com.alirezaft.OODFinal.UserInfo.Gender;
+import com.alirezaft.OODFinal.UserInfo.PersonalInformation;
+import com.alirezaft.OODFinal.UserInfo.User;
 
 public class CreateCharacterStrategy extends CommandExecutionStrategy {
     @Override

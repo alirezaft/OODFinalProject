@@ -1,4 +1,4 @@
-package com.alirezaft.OODFinal;
+package com.alirezaft.OODFinal.UserInfo;
 
 public class Subscriber {
     private int ID;

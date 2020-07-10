@@ -5,7 +5,7 @@ import com.alirezaft.OODFinal.Database;
 import com.alirezaft.OODFinal.Publication;
 
 public class PrintInfoStrategy extends CommandExecutionStrategy{
-    CommandLineInterpreter cmd;
+    private CommandLineInterpreter cmd;
 
     @Override
     public void executeCommand(String[] args) {
@@ -20,7 +20,7 @@ public class PrintInfoStrategy extends CommandExecutionStrategy{
 //            System.out.println();
             System.out.println("Name: " + curr.getName());
             System.out.println("Date stablished: " + curr.getDateStablished());
-            System.out.println("Hshcode: " + curr.getHashCode());
+            System.out.println("Hashcode: " + curr.getHashCode());
             System.out.println("Head: " + curr.getHashCode());
         }
     }

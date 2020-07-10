@@ -1,6 +1,8 @@
 package com.alirezaft.OODFinal;
 
 
+import com.alirezaft.OODFinal.UserInfo.Subscriber;
+
 import java.util.ArrayList;
 
 //Observer design pattern

@@ -1,9 +1,12 @@
 package com.alirezaft.OODFinal;
 
 import com.alirezaft.OODFinal.DeliveryMethodStrategies.DeliveryMethodStrategy;
+import com.alirezaft.OODFinal.DeliveryMethodStrategies.PostingDeliveryStrategy;
 import com.alirezaft.OODFinal.PublicationStates.PublicationState;
 import com.alirezaft.OODFinal.PublicationStates.EditingState;
 import com.alirezaft.OODFinal.PublicationStates.PublishingState;
+import com.alirezaft.OODFinal.UserInfo.Subscriber;
+import com.alirezaft.OODFinal.UserInfo.SubscriberInfo;
 
 import java.util.Date;
 
@@ -14,7 +17,7 @@ public class Publication {
     private int HashCode;
     private String Head;
     private PublicationState pubstate;
-    private DeliveryMethodStrategy DeliveryMethod;
+    private DeliveryMethodStrategy DeliveryMethod = new PostingDeliveryStrategy(this);
     private Publisher publisher = new Publisher();
 
     public Publication(String name){
